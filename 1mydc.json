@@ -23,7 +23,20 @@
         { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
     ],
     "rules": [
-        { "name": "去广告切片", "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy", "suonizy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?adjump.*?\\.ts"] },
-        { "name": "通用过滤", "hosts": ["*"], "regex": ["17.19", "19.63", "17.99", "14.45", "38.68"] }
-    ]
+    { 
+        "name": "量子/非凡过滤", 
+        "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy"], 
+        "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?08646.*?\\.ts"] 
+    },
+    { 
+        "name": "索尼/暴风专用", 
+        "hosts": ["suonizy", "bfzy", "bfbfvip"], 
+        "regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts", "p1ayer"] 
+    },
+    { 
+        "name": "通用屏蔽", 
+        "hosts": ["*"], 
+        "regex": ["17.19", "19.63", "20.26"] 
+    }
+]
 }
