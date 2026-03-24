@@ -1,13 +1,41 @@
 {
     "lives": [
-        { "name": "🌍 全球高清·综合频道", "type": 0, "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u", "playerType": 1 },
-        { "name": "🎬 影视轮播·经典频道", "type": 0, "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u", "playerType": 1 }
+        {
+            "name": "📡 範明明·国内高清(IPv6)",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "🌍 YueChan·全球综合",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "🎬 影视频道·经典轮播",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/movie.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "📺 肥羊·多线聚合",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tvguide.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "💎 4K/8K·极致高清",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/4k.m3u",
+            "playerType": 1
+        }
     ],
     "sites": [
-        /* --- 💎 核心站：索尼 & 非凡 --- */
+        /* --- 核心大站：索尼 & 非凡 --- */
         { 
             "key": "sn_json", 
-            "name": "💎 索尼蓝光(主推/全分类)", 
+            "name": "💎 索尼蓝光(主页/搜索优先)", 
             "type": 1, 
             "api": "https://suoniapi.com/api.php/provide/vod/at/json/", 
             "searchable": 1, 
@@ -24,12 +52,11 @@
             "quickSearch": 1, 
             "filterable": 1 
         },
-        /* --- 🎬 高清大厂 --- */
+        /* --- 高清/极速站点补全 --- */
         { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1 },
-        { "key": "hx_json", "name": "🌟 恒星资源(4K)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "uk_json", "name": "🎥 U酷资源(4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
+        { "key": "hx_json", "name": "🌟 恒星资源(4K蓝光)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/at/json/", "searchable": 1 },
+        { "key": "uk_json", "name": "🎥 U酷资源(4K专线)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
         { "key": "wl_json", "name": "🌏 卧龙海外", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        /* --- 📺 补全其余 10 个站点 --- */
         { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/", "searchable": 1 },
         { "key": "js_json", "name": "🚀 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
         { "key": "bd_json", "name": "🎯 百度资源", "type": 1, "api": "https://api.apibdzy.com/api.php/provide/vod/at/json/", "searchable": 1 },
@@ -44,5 +71,8 @@
     "parses": [
         { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
         { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
+    ],
+    "rules": [
+        { "name": "去广告切片", "hosts": ["vip.lz", "hd.lz", "suonizy", "hxzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] }
     ]
 }
