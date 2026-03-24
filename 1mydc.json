@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://bing.img.run/1920x1080.php",
-    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/0707/main/custom_spider.jar",
+    "spider": "https://raw.githubusercontent.com/gaotianliuyun/0707/main/custom_spider.jar",
     "sites": [
         {
             "key": "sn_json",
@@ -9,9 +9,7 @@
             "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "categories": ["电影", "电视剧", "综艺", "动漫"],
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h宣/TVBox/main/filter.json"
+            "filterable": 1
         },
         {
             "key": "ff_json",
@@ -20,13 +18,29 @@
             "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json/",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "categories": ["电影", "电视剧", "综艺", "动漫"],
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h宣/TVBox/main/filter.json"
+            "filterable": 1
+        },
+        {
+            "key": "lz_json",
+            "name": "🎬 量子高清 | 支持筛选",
+            "type": 1,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "wl_json",
+            "name": "🌏 卧龙海外 | 直连快",
+            "type": 1,
+            "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         }
     ],
     "parses": [
-        { "name": "💡 自动解析", "type": 3, "url": "Web" },
-        { "name": "🚀 极速云", "type": 0, "url": "https://jx.json.icu/?url=" }
+        { "name": "💡 智能解析", "type": 3, "url": "Web" },
+        { "name": "🚀 极速解析", "type": 0, "url": "https://jx.json.icu/?url=" }
     ]
 }
