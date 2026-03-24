@@ -15,7 +15,7 @@
         }
     ],
     "sites": [
-        { "key": "ff_xml", "name": "⚡ 非凡秒播", "type": 0, "api": "http://api.ffzyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ff_xml", "name": "⚡ 非凡秒播", "type": 0, "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "sn_xml", "name": "💎 索尼蓝光", "type": 0, "api": "http://suoniapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "lz_json", "name": "🎬 量子高清", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
