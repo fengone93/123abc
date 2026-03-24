@@ -15,15 +15,17 @@
         }
     ],
     "sites": [
-        { "key": "lz_json", "name": "🎬 量子高清", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "js_json", "name": "⚡ 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "jz_json", "name": "🍊 橘子资源", "type": 1, "api": "https://juziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "jy_json", "name": "🦅 金鹰资源", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "bf_json", "name": "🌀 暴风资源", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "wl_json", "name": "🌏 卧龙海外", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "ik_json", "name": "🎥 iKUN资源", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "rn_json", "name": "🐂 红牛极速", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "hy_json", "name": "🐯 虎牙资源", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
+        { "key": "lz_json", "name": "🎬 量子高清｜全量秒开", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ff_json", "name": "⚡ 非凡秒播｜起飞加载", "type": 1, "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "sn_json", "name": "💎 索尼蓝光｜画质巅峰", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "xl_json", "name": "📺 新浪资源｜更新极快", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "js_json", "name": "🚀 极速资源｜秒级秒播", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "jy_json", "name": "🦅 金鹰资源｜高清采集", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "bf_json", "name": "🌀 暴风老牌｜经典稳定", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "wl_json", "name": "🌏 卧龙海外｜全球资源", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ik_json", "name": "🎥 iKUN资源｜画质优选", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "rn_json", "name": "🐂 红牛极速｜节点稳定", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "hy_json", "name": "🐯 虎牙资源｜综艺同步", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
     ],
     "parses": [
         { "name": "极速解析", "type": 0, "url": "https://jx.json.icu/?url=" },
@@ -31,8 +33,7 @@
         { "name": "虾米解析", "type": 0, "url": "https://jx.xmflv.com/?url=" }
     ],
     "rules": [
-        { "name": "量子/非凡", "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] },
-        { "name": "暴风", "hosts": ["bfzy", "bfbfvip"], "regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts"] },
-        { "name": "智能过滤", "hosts": ["*"], "regex": ["17.19", "19.63", "17.99", "14.45"] }
+        { "name": "广告过滤1", "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] },
+        { "name": "广告过滤2", "hosts": ["bfzy", "bfbfvip", "suonizy"], "regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts"] }
     ]
 }
