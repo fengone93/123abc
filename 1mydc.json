@@ -1,28 +1,25 @@
 {
-    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h%E5%AE%A3/TVBox/main/custom_spider.jar",
+    /* 已彻底删除 spider 爬虫行，不再依赖外部 jar 包 */
     "lives": [
         { "name": "🌐 自动更新·国内(IPv6)", "type": 0, "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u", "playerType": 1 },
         { "name": "📺 自动更新·全球频道", "type": 0, "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u", "playerType": 1 }
     ],
     "sites": [
-        /* --- 💎 索尼蓝光：主站，带完整分类 --- */
         { 
             "key": "sn_json", 
-            "name": "💎 索尼蓝光(主页/搜索优先)", 
+            "name": "💎 索尼蓝光(主页/直连搜索)", 
             "type": 1, 
-            "api": "https://suoniapi.com/api.php/provide/vod/?ac=list", 
+            "api": "https://suoniapi.com/api.php/provide/vod/at/json/", 
             "searchable": 1, 
             "quickSearch": 1, 
             "filterable": 1,
             "categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","国产剧","欧美剧","韩剧","日剧","香港剧","台湾剧","泰剧","海外剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]
         },
-        /* --- 🎬 量子高清 --- */
         { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        /* --- 其余 14 路全部补回 --- */
         { "key": "hx_json", "name": "🌟 恒星资源(4K)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1 },
-        { "key": "uk_json", "name": "🎥 U酷资源(4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1 },
-        { "key": "wl_json", "name": "🌏 卧龙海外", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1 },
-        { "key": "ff_json", "name": "⚡ 非凡秒播", "type": 1, "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1 },
+        { "key": "uk_json", "name": "🎥 U酷资源(4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
+        { "key": "wl_json", "name": "🌏 卧龙海外", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1 },
+        { "key": "ff_json", "name": "⚡ 非凡秒播", "type": 1, "api": "http://api.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
         { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/", "searchable": 1 },
         { "key": "js_json", "name": "🚀 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
         { "key": "bd_json", "name": "🎯 百度资源", "type": 1, "api": "https://api.apibdzy.com/api.php/provide/vod/at/json/", "searchable": 1 },
@@ -37,8 +34,5 @@
     "parses": [
         { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
         { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
-    ],
-    "rules": [
-        { "name": "去广告切片", "hosts": ["vip.lz", "hd.lz", "suonizy", "hxzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] }
     ]
 }
