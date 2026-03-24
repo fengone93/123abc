@@ -1,24 +1,44 @@
 {
-"spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h宣/TVBox/main/spider.jar",
-"wallpaper": "https://bing.img.run/1920x1080.php",
-"sites": [
-{ "key": "lz_json", "name": "🎬 量子高清｜全量秒开", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1, "index": "https://cj.lziapi.com/api.php/provide/vod/at/json/" },
-{ "key": "ff_json", "name": "⚡ 非凡秒播｜起飞加载", "type": 1, "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "bt_json", "name": "🦾 比特资源｜硬核更新", "type": 1, "api": "https://api.bitzy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "wc_json", "name": "📝 文采资源｜分类精准", "type": 1, "api": "https://api.wencaizy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "hhua_json", "name": "🌸 花花资源｜极速采集", "type": 1, "api": "https://www.huahuazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "rb_json", "name": "🔥 热播资源｜实时同步", "type": 1, "api": "https://rebozy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "sn_json", "name": "💎 索尼蓝光｜画质巅峰", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "js_json", "name": "⚡ 极速资源｜秒级秒播", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "rn_json", "name": "🐂 红牛极速｜节点稳定", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "wl_json", "name": "🌏 卧龙海外｜全球资源", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "bf_json", "name": "🌀 暴风老牌｜经典怀旧", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "ik_json", "name": "🎥 iKUN资源｜画质优选", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "jy_json", "name": "🦅 金鹰资源｜高清采集", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "hyzy_json", "name": "🐯 虎牙多线｜综艺同步", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-{ "key": "88_json", "name": "🚀 88资源｜稳定输出", "type": 1, "api": "https://www.88zyw.net/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
-],
-"parses": [
-{ "name": "极速解析", "type": 0, "url": "https://jx.json.icu/?url=" }
-]
+    "wallpaper": "https://bing.img.run/1920x1080.php",
+    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h%E5%AE%A3/TVBox/main/custom_spider.jar",
+    "lives": [
+        {
+            "name": "云端直播1(BMCH)",
+            "type": 0,
+            "url": "https://gh.halonice.com/https:/raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "云端直播2(Tianmu)",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt"
+        }
+    ],
+    "sites": [
+        { "key": "ff_json", "name": "⚡ 非凡秒播", "type": 1, "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "sn_json", "name": "💎 索尼蓝光", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "lz_json", "name": "🎬 量子高清", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "js_json", "name": "🚀 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "jy_json", "name": "🦅 金鹰资源", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "bf_json", "name": "🌀 暴风老牌", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "wl_json", "name": "🌏 卧龙海外", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ik_json", "name": "🎥 iKUN资源", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "rn_json", "name": "🐂 红牛极速", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "hy_json", "name": "🐯 虎牙资源", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
+    ],
+    "parses": [
+        { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
+        { "name": "🚀 极速云解析", "type": 0, "url": "https://jx.json.icu/?url=" },
+        { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" },
+        { "name": "🐟 咸鱼解析", "type": 0, "url": "https://jx.xymp4.cc/?url=" },
+        { "name": "🧊 冰豆解析", "type": 0, "url": "https://bd.jx.cn/?url=" },
+        { "name": "☁️ 云插件解析", "type": 0, "url": "https://jx.77flv.cc/?url=" },
+        { "name": "🔥 热播解析", "type": 0, "url": "https://jx.yparse.com/index.php?url=" },
+        { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
+    ],
+    "rules": [
+        { "name": "去广告切片", "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy", "suonizy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?adjump.*?\\.ts"] },
+        { "name": "通用过滤", "hosts": ["*"], "regex": ["17.19", "19.63", "17.99", "14.45", "38.68"] }
+    ]
 }
