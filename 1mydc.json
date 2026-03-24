@@ -12,14 +12,9 @@
         { "key": "rn_json", "name": "🐂 红牛极速", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "hy_json", "name": "🐯 虎牙资源", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
     ],
-    "parses": [
-        { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
-        { "name": "🚀 极速云解析", "type": 0, "url": "https://jx.json.icu/?url=" },
-        { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" },
-        { "name": "🐟 咸鱼解析", "type": 0, "url": "https://jx.xymp4.cc/?url=" },
-        { "name": "🧊 冰豆解析", "type": 0, "url": "https://bd.jx.cn/?url=" },
-        { "name": "☁️ 云插件解析", "type": 0, "url": "https://jx.77flv.cc/?url=" },
-        { "name": "🔥 热播解析", "type": 0, "url": "https://jx.yparse.com/index.php?url=" },
-        { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
-    ]
+"parses": [
+    { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
+    { "name": "🚀 极速云解析", "type": 0, "url": "https://jx.json.icu/?url=" },
+    { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" }
+]
 }
