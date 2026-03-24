@@ -1,11 +1,11 @@
 {
     "wallpaper": "https://bing.img.run/1920x1080.php",
-    "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3839-115f-4531-9a7c-f698e670985c/1715582303924/custom_spider.jar",
     "lives": [
         {
             "name": "🌐 自动更新·国内(IPv6)",
             "type": 0,
-            "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
             "playerType": 1
         },
         {
@@ -16,16 +16,16 @@
         }
     ],
     "sites": [
-        /* --- 首页：豆瓣评分与分类 --- */
-        { "key": "豆瓣", "name": "🎬 豆瓣热映(主页评分)", "type": 3, "api": "csp_Douban", "searchable": 0, "quickSearch": 0, "filterable": 1 },
-        { "key": "热荐", "name": "🔥 热门推荐(聚合榜单)", "type": 3, "api": "csp_AppHot", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://150.158.170.18:88/v/" },
+        /* --- 聚合主页：采用加速后的接口，确保秒开 --- */
+        { "key": "豆瓣", "name": "🎬 豆瓣·热映(主页评分)", "type": 3, "api": "csp_Douban", "searchable": 0, "quickSearch": 0, "filterable": 1 },
+        { "key": "热荐", "name": "🔥 热门·推荐(聚合榜单)", "type": 3, "api": "csp_AppHot", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://150.158.170.18:88/v/" },
         
-        /* --- 16路高清采集站 --- */
-        { "key": "sn_json", "name": "💎 索尼蓝光(4K强推)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "hx_json", "name": "🌟 恒星资源(4K蓝光)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "uk_json", "name": "🎥 U酷资源(高码率4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "wl_json", "name": "🌏 卧龙海外(海外专线)", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        /* --- 16路精选采集站（确保 4K 优先且稳定） --- */
+        { "key": "sn_json", "name": "💎 索尼蓝光(4K)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "lz_json", "name": "🎬 量子高清(4K)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "hx_json", "name": "🌟 恒星资源(4K)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "uk_json", "name": "🎥 U酷资源(4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "wl_json", "name": "🌏 卧龙海外", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "ff_json", "name": "⚡ 非凡秒播", "type": 1, "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "js_json", "name": "🚀 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
@@ -41,7 +41,6 @@
     "parses": [
         { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
         { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" },
-        { "name": "🔥 热播解析", "type": 0, "url": "https://jx.yparse.com/index.php?url=" },
         { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
     ],
     "rules": [
