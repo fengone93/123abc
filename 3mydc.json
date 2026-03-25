@@ -13,7 +13,7 @@
             "key": "ff_json", 
             "name": "⚡ 非凡秒播", 
             "type": 1, 
-            "api": "http://api.ffzyapi.com/api.php/provide/vod/at/json/", 
+            "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list", 
             "searchable": 1, "quickSearch": 1, "filterable": 1,
             "categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","国产剧","欧美剧","韩剧","日剧","香港剧","台湾剧","泰剧","海外剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]
         },
