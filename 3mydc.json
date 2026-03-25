@@ -16,7 +16,7 @@
         }
     ],
     "sites": [
-        { "key": "sn55_json", "name": "💎 索尼蓝光(优先/搜索)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "playUrl": "" },
+        { "key": "sn55_json", "name": "💎 索尼蓝光(优先/搜索)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "filterable": 1, "playUrl": "" },
         { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "hx_json", "name": "🌟 恒星资源(4K蓝光)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "uk_json", "name": "🎥 U酷资源(高码率4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
