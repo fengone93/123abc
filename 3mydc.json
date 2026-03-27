@@ -1,6 +1,15 @@
 {
     "sites": [
-        { "key": "sn_json", "name": "💎 索尼蓝1光(4K强推)", "type": 1, "api": "http://suoniapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { 
+            "key": "sn_json", 
+            "name": "💎 索尼蓝光(4K强推)", 
+            "type": 1, 
+            "api": "https://suoniapi.com/api.php/provide/vod/?ac=list", 
+            "searchable": 1, 
+            "quickSearch": 1, 
+            "filterable": 1, 
+            "categories": ["1","2","3","4","6","7","8","9","10","13","14","15","16","25","29","54","62","64","66","67","68","69"] 
+        },
         { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "uk_json", "name": "🎥 U酷资源(高码率4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "wl_json", "name": "🌏 卧龙海外(海外专线)", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
