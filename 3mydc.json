@@ -5,15 +5,13 @@
   "sites": [
     {
       "key": "lz_json_selected",
-      "name": "🎬 量子高清 | 甄选1旗舰",
+      "name": "🎬 量子高清 | FongMi原生版",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      /* 1. 甄选锁：只显示这四个名字 */
-      "categories": ["电影", "连续剧", "综艺", "动漫"],
-      /* 2. 映射锁：把量子的 ID 强制塞进上面四个名字里 */
+      /* 依照 FongMi 规范：直接在 class 里锁定 ID，未列出的 ID 会被 UI 自动忽略 */
       "class": [
         {"type_id": 1, "type_name": "电影"},
         {"type_id": 2, "type_name": "连续剧"},
@@ -32,6 +30,11 @@
     { "name": "💡 智能解析", "type": 3, "url": "Web" }
   ],
   "rules": [
-    { "name": "去广告", "hosts": ["vip.lz", "hd.lz"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] }
+    { 
+      "name": "广告拦截", 
+      "hosts": ["vip.lz", "hd.lz"], 
+      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] 
+    }
   ]
+}
 }
