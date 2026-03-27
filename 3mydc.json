@@ -1,17 +1,19 @@
 {
-  "spider": "",
-  "wallpaper": "",
-  "lives": [],
+  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/lib/spider.jar",
+  "wallpaper": "https://bing.img.run/rand_uhd.php",
   "sites": [
     {
-      "key": "lz_json_selected",
-      "name": "🎬 量子高清 | FongMi原生版",
+      "key": "lz_json_ultimate",
+      "name": "🎬 量子高清 | 甄选旗舰",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      /* 依照 FongMi 规范：直接在 class 里锁定 ID，未列出的 ID 会被 UI 自动忽略 */
+      /* 补全 UA 和样式细节 */
+      "ua": "FongMi/1.0",
+      "style": { "type": "rect", "ratio": 0.75 },
+      /* 严格按照 class 映射，确保导航栏干干净净 */
       "class": [
         {"type_id": 1, "type_name": "电影"},
         {"type_id": 2, "type_name": "连续剧"},
@@ -19,10 +21,10 @@
         {"type_id": 4, "type_name": "动漫"}
       ],
       "filter": {
-        "1": [{"key": "year", "name": "年份", "value": [{"n": "全部", "v": ""}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}]}],
+        "1": [{"key": "year", "name": "年份", "value": [{"n": "全部", "v": ""}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}]}],
         "2": [{"key": "year", "name": "年份", "value": [{"n": "全部", "v": ""}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}]}],
-        "3": [{"key": "year", "name": "年份", "value": [{"n": "全部", "v": ""}, {"n": "2026", "v": "2026"}]}],
-        "4": [{"key": "year", "name": "年份", "value": [{"n": "全部", "v": ""}, {"n": "2026", "v": "2026"}]}]
+        "3": [{"key": "year", "name": "年份", "value": [{"n": "2026", "v": "2026"}]}],
+        "4": [{"key": "year", "name": "年份", "value": [{"n": "2026", "v": "2026"}]}]
       }
     }
   ],
@@ -31,10 +33,13 @@
   ],
   "rules": [
     { 
-      "name": "广告拦截", 
+      "name": "量子屏蔽", 
       "hosts": ["vip.lz", "hd.lz"], 
       "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] 
     }
+  ]
+}
+}
   ]
 }
 }
