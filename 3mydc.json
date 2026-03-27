@@ -4,7 +4,7 @@
       "key": "sn_xml",
       "name": "索尼资源 (XML)",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
