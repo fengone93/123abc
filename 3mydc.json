@@ -1,104 +1,41 @@
 {
-  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/lib/spider.jar",
-  "sites": [
-    {
-      "key": "lz_tv_fix",
-      "name": "🎬 量子高清 | 电视专用版",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "flag": ["lzm3u8", "qzm3u8", "ffm3u8", "snm3u8", "dbm3u8"],
-      "playerType": 1,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-      // ↓↓↓ 完整分类（从接口获取，保证所有二级分类都能正常显示）↓↓↓
-      "class": [
-        {"type_id":1,"type_name":"电影片"},
-        {"type_id":2,"type_name":"连续剧"},
-        {"type_id":3,"type_name":"综艺片"},
-        {"type_id":4,"type_name":"动漫片"},
-        {"type_id":6,"type_name":"动作片"},
-        {"type_id":7,"type_name":"喜剧片"},
-        {"type_id":8,"type_name":"爱情片"},
-        {"type_id":9,"type_name":"科幻片"},
-        {"type_id":10,"type_name":"恐怖片"},
-        {"type_id":11,"type_name":"剧情片"},
-        {"type_id":12,"type_name":"战争片"},
-        {"type_id":13,"type_name":"国产剧"},
-        {"type_id":14,"type_name":"香港剧"},
-        {"type_id":15,"type_name":"韩国剧"},
-        {"type_id":16,"type_name":"欧美剧"},
-        {"type_id":20,"type_name":"记录片"},
-        {"type_id":21,"type_name":"台湾剧"},
-        {"type_id":22,"type_name":"日本剧"},
-        {"type_id":23,"type_name":"海外剧"},
-        {"type_id":24,"type_name":"泰国剧"},
-        {"type_id":25,"type_name":"大陆综艺"},
-        {"type_id":26,"type_name":"港台综艺"},
-        {"type_id":27,"type_name":"日韩综艺"},
-        {"type_id":28,"type_name":"欧美综艺"},
-        {"type_id":29,"type_name":"国产动漫"},
-        {"type_id":30,"type_name":"日韩动漫"},
-        {"type_id":31,"type_name":"欧美动漫"},
-        {"type_id":32,"type_name":"港台动漫"},
-        {"type_id":33,"type_name":"海外动漫"},
-        {"type_id":34,"type_name":"伦理片"},
-        {"type_id":35,"type_name":"电影解说"},
-        {"type_id":36,"type_name":"体育"},
-        {"type_id":37,"type_name":"足球"},
-        {"type_id":38,"type_name":"篮球"},
-        {"type_id":39,"type_name":"网球"},
-        {"type_id":40,"type_name":"斯诺克"},
-        {"type_id":41,"type_name":"演员"},
-        {"type_id":42,"type_name":"新闻资讯"},
-        {"type_id":43,"type_name":"电影资讯"},
-        {"type_id":44,"type_name":"娱乐新闻"},
-        {"type_id":45,"type_name":"预告片"},
-        {"type_id":46,"type_name":"短剧"},
-        {"type_id":49,"type_name":"动画片"}
-      ],
-      // ↓↓↓ 年份筛选（全局生效，所有分类都能按年份筛选）↓↓↓
-      "filter": {
-        "0": {
-          "year": {
-            "name": "年份",
-            "key": "year",
-            "init": "全部",
-            "value": [
-              {"n": "全部", "v": ""},
-              {"n": "2026", "v": "2026"},
-              {"n": "2025", "v": "2025"},
-              {"n": "2024", "v": "2024"},
-              {"n": "2023", "v": "2023"},
-              {"n": "2022", "v": "2022"},
-              {"n": "2021", "v": "2021"},
-              {"n": "2020", "v": "2020"},
-              {"n": "2019", "v": "2019"},
-              {"n": "2018", "v": "2018"},
-              {"n": "2017", "v": "2017"},
-              {"n": "2016", "v": "2016"},
-              {"n": "2015", "v": "2015"},
-              {"n": "2014", "v": "2014"},
-              {"n": "2013", "v": "2013"},
-              {"n": "2012", "v": "2012"},
-              {"n": "2011", "v": "2011"},
-              {"n": "2010", "v": "2010"}
-            ]
-          }
+    "sites": [
+        { "key": "sn_json", "name": "💎 索尼蓝1光(4K强推)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "uk_json", "name": "🎥 U酷资源(高码率4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "wl_json", "name": "🌏 卧龙海外(海外专线)", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ff_json", "name": "⚡ 非凡秒播", "type": 1, "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "js_json", "name": "🚀 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "bd_json", "name": "🎯 百度资源", "type": 1, "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "jy_json", "name": "🦅 金鹰资源", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "bf_json", "name": "🌀 暴风老牌", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ik_json", "name": "🎞️ iKUN资源", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "rn_json", "name": "🐂 红牛极速", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "hy_json", "name": "🐯 虎牙资源", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "1080_json", "name": "🌟 1080资源", "type": 1, "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "wj_json", "name": "♾️ 无尽资源", "type": 1, "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "uk1_json", "name": "🌸 1U酷资源", "type": 1, "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 }
+    ],
+    "parses": [
+        { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
+        { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" },
+        { "name": "🔥 热播解析", "type": 0, "url": "https://jx.yparse.com/index.php?url=" },
+        { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
+    ],
+    "rules": [
+        { 
+            "name": "去广告切片", 
+            "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy", "suonizy", "hxzy", "kczy", "tkzy", "ukuzy"], 
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", 
+                "#EXTINF.*?\\s+.*?adjump.*?\\.ts"
+            ] 
+        },
+        { 
+            "name": "通用时长过滤", 
+            "hosts": ["*"], 
+            "regex": ["17.19", "19.63", "17.99", "14.45", "38.68"] 
         }
-      }
-    }
-  ],
-  "parses": [
-    { "name": "💡 聚合解析", "type": 3, "url": "Web" },
-    { "name": "🚀 极速解析", "type": 0, "url": "https://jx.jsonplayer.com/player/?url=" }
-  ],
-  "rules": [
-    {
-      "name": "量子去广告",
-      "hosts": ["vip.lz", "hd.lz"],
-      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
-    }
-  ]
+    ]
 }
