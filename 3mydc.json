@@ -1,19 +1,20 @@
 {
   "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/lib/spider.jar",
-  "wallpaper": "https://bing.img.run/rand_uhd.php",
   "sites": [
     {
-      "key": "lz_json_ultimate",
-      "name": "🎬 量子高清 | 甄选旗舰",
+      "key": "lz_force_play",
+      "name": "🎬 量子高清 | 强力解析版",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ua": "FongMi/1.0",
-      /* 关键：指定哪些线路需要解析，量子资源常用这些标记 */
-      "playUrl": "",
-      "flag": ["lzm3u8", "qzm3u8", "duoduo", "ffm3u8", "snm3u8"],
+      /* 重点 1：依照 dr_py 建议，添加播放解析标志 */
+      "playUrl": "https://jx.xmflv.com/?url=", 
+      "flag": ["lzm3u8", "qzm3u8", "ffm3u8", "snm3u8"],
+      /* 重点 2：强制使用 ExoPlayer 或 IJK 内核，提高海外解析成功率 */
+      "playerType": 2, 
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
       "class": [
         {"type_id": 1, "type_name": "电影"},
         {"type_id": 2, "type_name": "连续剧"},
@@ -21,21 +22,16 @@
         {"type_id": 4, "type_name": "动漫"}
       ],
       "filter": {
-        "1": [{"key": "year", "name": "年份", "value": [{"n": "全部", "v": ""}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}]}]
+        "1": [{"key": "year", "name": "年份", "value": [{"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}]}]
       }
     }
   ],
   "parses": [
-    /* 依照 FongMi 文档，将聚合解析放在第一位，增强兼容性 */
+    /* 强制聚合解析 */
     { "name": "💡 聚合解析", "type": 3, "url": "Web" },
-    { "name": "🚀 极速解析", "type": 0, "url": "https://jx.jsonplayer.com/player/?url=", "header": { "User-Agent": "Mozilla/5.0" } },
-    { "name": "🦐 虾米解析", "type": 0, "url": "https://jx.xmflv.com/?url=" }
+    { "name": "🚀 极速解析", "type": 0, "url": "https://jx.jsonplayer.com/player/?url=" }
   ],
   "rules": [
-    { 
-      "name": "去广告", 
-      "hosts": ["vip.lz", "hd.lz"], 
-      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] 
-    }
+    { "name": "去广告", "hosts": ["vip.lz", "hd.lz"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] }
   ]
 }
