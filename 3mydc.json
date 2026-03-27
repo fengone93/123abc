@@ -1,6 +1,6 @@
 {
     "sites": [
-        { "key": "sn_json", "name": "💎 索尼蓝光(4K强推)", "type": 1, "api": "Https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","国产剧","欧美剧","韩剧","日剧","香港剧","台湾剧","泰剧","海外剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"] },
+        { "key": "sn_json", "name": "💎 索尼蓝光(4K强推)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/?ac=detail", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","国产剧","欧美剧","韩剧","日剧","香港剧","台湾剧","泰剧","海外剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"] },
         { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "uk_json", "name": "🎥 U酷资源(高码率4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "wl_json", "name": "🌏 卧龙海外(海外专线)", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
