@@ -12,7 +12,6 @@
        "quickSearch": 1,
        "filterable": 1,
        "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
-      }
     },
     {
       "key": "Tg|豆瓣",
@@ -27,6 +26,7 @@
         "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
         "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/peizhi.json",
         "filter": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/douban.json"
+      }
     },
     {
       "key": "弹幕",
