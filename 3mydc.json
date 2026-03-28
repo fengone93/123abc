@@ -209,26 +209,6 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/农民影视.json"
     },
     {
-      "key": "欧乐",
-      "name": "🎥欧乐影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.olehdtv.com/vodshow/{cateId}--------{catePg}---.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5",
-        "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$13#动画片$14#悬疑片$15#冒险片$16#犯罪片$17#惊悚片$18#纪录片$19#国产剧$20#港剧$21#台剧$22#日剧$23#韩剧$24#欧美剧$25#泰剧$26#其他剧$27#内地综艺$28#港台综艺$29#日韩综艺$30#欧美综艺$31#国产动漫$32#日本动漫$33#韩国动漫$34#欧美动漫$35#短剧$36",
-        "搜索url": "https://www.olehdtv.com/vodsearch/{wd}----------{pg}---.html",
-        "简介": "简介：&&",
-        "导演": "导演：",
-        "主演": "主演："
-      }
-    },
-    {
       "key": "永乐",
       "name": "🍰永乐",
       "type": 3,
