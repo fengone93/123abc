@@ -1,5 +1,17 @@
 {
-      }
+  "spider": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "logo": "",
+  "sites": [
+  {
+  "key": "csp_DouDouGuard",
+  "name": "【Work-Life B v1.0】",
+  "type": 3,
+  "api": "csp_DouDouGuard",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar"
     },
     {
       "key": "原创",
@@ -11,7 +23,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-  "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar"
+      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
     },
     {
       "key": "厂长",
