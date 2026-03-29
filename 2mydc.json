@@ -8,8 +8,8 @@
       "name": "【Work-Life B v1.0】",
       "type": 3,
       "api": "csp_DouDouGuard",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
       "timeout": 5
