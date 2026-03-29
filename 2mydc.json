@@ -4,14 +4,14 @@
   "logo": "",
   "sites": [
   {
-  "key": "csp_DouDouGuard",
-  "name": "【Work-Life B v1.0】",
-  "type": 3,
-  "api": "csp_DouDouGuard",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar"
+      "key": "csp_DouDouGuard",
+      "name": "【欢迎回家1.0】",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
     },
     {
       "key": "原创",
