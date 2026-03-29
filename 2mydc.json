@@ -3,15 +3,14 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "",
   "sites": [
-    {
-      "key": "csp_DouDouGuard",
-      "name": "【Work-Life B v1.0】",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+  {
+  "key": "douban_hot",
+  "name": "豆瓣热播",
+  "type": 3,
+  "api": "csp_DouBan",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1
     },
     {
       "key": "原创",
