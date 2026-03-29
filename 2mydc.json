@@ -11,7 +11,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+           "timeout": 10
     },
     {
       "key": "原创",
