@@ -4,13 +4,14 @@
   "logo": "",
   "sites": [
     {
-            "key": "豆瓣",
-            "name": "豆瓣｜首页",
-            "type": 3,
-            "api": "csp_Douban",
-            "timeout": 10,
-            "searchable": 0,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar"
+      "key": "csp_DouDouGuard",
+      "name": "【Work-Life B v1.0】",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
     },
     {
       "key": "原创",
