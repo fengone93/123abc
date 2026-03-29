@@ -682,13 +682,12 @@
       "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
     },
     {
-      "key": "云播_app",
-      "name": "云播｜APP",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppFox",
-      "ext": {
+    "key": "云播",
+    "name": "云播｜APP",
+    "type": 3,
+    "api": "csp_AppFox",
+    "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
+    "ext": {
         "host": "http://app.hktvyb.cc"
       }
     },
