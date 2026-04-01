@@ -1,7 +1,7 @@
 [
   {
     "key": "豆瓣",
-    "name": "豆瓣0.123",
+    "name": "豆瓣0.1234",
     "type": 3,
     "api": "csp_Douban",
     "indexs": 1,
@@ -357,6 +357,30 @@
     "filterable": 1,
     "ext": "https://dm84.net",
     "jar": "./jar/Yoursmile.jar"
+  },
+  {
+    "key": "芒果[js]",
+    "name": "🥭芒果[js]",
+    "type": 3,
+    "api": "./js/lib/drpy2.min.js",
+    "ext": "./js/百忙无果.js",
+    "jar": "./jar/fan.txt"
+  },
+  {
+    "key": "优酷[js]",
+    "name": "🎬优酷[js]",
+    "type": 3,
+    "api": "./js/lib/drpy2.min.js",
+    "ext": "./js/优酷.js",
+    "jar": "./jar/fan.txt"
+  },
+  {
+    "key": "腾讯[js]",
+    "name": "🐧腾讯[js]",
+    "type": 3,
+    "api": "./js/lib/drpy2.min.js",
+    "ext": "./js/腾云驾雾.js",
+    "jar": "./jar/fan.txt"
   },
   {
     "key": "csp_New6v",
