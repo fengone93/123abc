@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "豆瓣0.12",
+      "name": "豆瓣0.123",
       "type": 3,
       "api": "csp_Douban",
       "indexs": 1,
@@ -13,18 +13,6 @@
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/fengone93/123abc/refs/heads/main/json/douban.json",
       "jar": "./jar/spider.jar"
-    },
-    {
-      "key": "ConfigCenter",
-      "name": "🅿网盘配置中心",
-      "type": 3,
-      "api": "csp_ConfigCenter",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/peizhi.json"
-      },
-      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "玩偶",
@@ -799,35 +787,6 @@
       "changeable": 1,
       "genre": "shortdrama",
       "jar": "./jar/custom_spider.jar"
-    },
-    {
-      "key": "csp_Kugou",
-      "name": "🐶酷狗",
-      "type": 3,
-      "api": "csp_Kugou",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      },
-      "jar": "./jar/Yoursmile.jar"
-    },
-    {
-      "key": "csp_FirstAid",
-      "name": "🚑急救教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      },
-      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "csp_Dm84",
