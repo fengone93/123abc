@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "豆瓣0.12345",
+      "name": "【欢迎回家】",
       "type": 3,
       "api": "csp_Douban",
       "indexs": 1,
@@ -535,22 +535,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "./jar/Yoursmile.jar"
-    },
-    {
-      "key": "sn_json",
-      "name": "💎 索尼蓝光(4K强推)",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "纪录片",
-        "国产剧", "欧美剧", "韩剧", "日剧", "香港剧", "台湾剧", "泰剧", "海外剧",
-        "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫",
-        "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"
-      ],
       "jar": "./jar/Yoursmile.jar"
     },
     {
