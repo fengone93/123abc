@@ -36,32 +36,6 @@
       "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
-      "key": "seed",
-      "name": "💡聚剧剧┃四盘",
-      "type": 3,
-      "api": "csp_SeedhubGuard",
-      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "indexs": 0,
-      "style": { "type": "list" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
-    },
-    {
-      "key": "ZPan",
-      "name": "🎈聚盘搜┃四盘",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": { "siteUrl": "http://38.55.131.86:82/" },
-      "indexs": 0,
-      "style": { "type": "list" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
-    },
-    {
       "key": "云播",
       "name": "⛅️云播┃无搜索",
       "type": 3,
