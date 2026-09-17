@@ -34,6 +34,7 @@
     "搜索url": "https://olevod.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
     "嗅探词": ".m3u8#.mp4#.m3u8?#.mp4?",
     "过滤词": "51.la#cnzz#hm.baidu.com#analytics"
+      }
     },
     {
       "key": "原创",
