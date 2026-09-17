@@ -12,28 +12,28 @@
       "quickSearch": 0,
       "changeable": 0
     },
-{
-  "key": "OLE_XBPQ",
-  "name": "🎬┃欧乐┃影视",
-  "type": 3,
-  "api": "csp_XBPQ",
-  "playerType": 2,
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1,
-  "changeable": 1,
-  "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar",
-  "ext": {
-    "站名": "欧乐影院",
-    "主页url": "https://olevod.com",
-    "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36#Referer$https://olevod.com/",
-    "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36#Referer$https://olevod.com/",
-    "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$1207",
-    "分类url": "https://olevod.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
-    "搜索模式": "1",
-    "搜索url": "https://olevod.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
-    "嗅探词": ".m3u8#.mp4#.m3u8?#.mp4?",
-    "过滤词": "51.la#cnzz#hm.baidu.com#analytics"
+    {
+      "key": "OLE_XBPQ",
+      "name": "🎬┃欧乐┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 1,
+      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar",
+      "ext": {
+        "站名": "欧乐影院",
+        "主页url": "https://olevod.com",
+        "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36#Referer$https://olevod.com/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36#Referer$https://olevod.com/",
+        "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$1207",
+        "分类url": "https://olevod.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+        "搜索模式": "1",
+        "搜索url": "https://olevod.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
+        "嗅探词": ".m3u8#.mp4#.m3u8?#.mp4?",
+        "过滤词": "51.la#cnzz#hm.baidu.com#analytics"
       }
     },
     {
