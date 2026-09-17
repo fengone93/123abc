@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "点我切源",
-      "name": "2.1v071",
+      "name": "2.1v0713",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -16,7 +16,7 @@
   "key": "OleLive",
   "name": "🎬┃欧乐┃影视",
   "type": 3,
-  "api": "https://raw.githubusercontent.com/qist/tvbox/master/py/OleLive.py",
+  "api": "https://raw.githubusercontent.com/fengone93/123abc/refs/heads/main/py/OleLive_Diag_20260918.py",
   "searchable": 1,
   "quickSearch": 0,
   "filterable": 1,
