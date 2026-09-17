@@ -12,15 +12,28 @@
       "quickSearch": 0,
       "changeable": 0
     },
-    {
-      "key": "光影",
-      "name": "🌞光影┃不卡",
-      "type": 3,
-      "api": "csp_T4Guard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
+{
+  "key": "OLE_XBPQ",
+  "name": "🎬┃欧乐┃影视",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "playerType": 2,
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1,
+  "changeable": 1,
+  "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar",
+  "ext": {
+    "站名": "欧乐影院",
+    "主页url": "https://olevod.com",
+    "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36#Referer$https://olevod.com/",
+    "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36#Referer$https://olevod.com/",
+    "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$1207",
+    "分类url": "https://olevod.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+    "搜索模式": "1",
+    "搜索url": "https://olevod.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
+    "嗅探词": ".m3u8#.mp4#.m3u8?#.mp4?",
+    "过滤词": "51.la#cnzz#hm.baidu.com#analytics"
     },
     {
       "key": "原创",
