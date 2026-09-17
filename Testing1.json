@@ -1,10 +1,10 @@
 {
-  "spider": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/testing170926",
+  "spider": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {
       "key": "点我切源",
-      "name": "2.1v07092600",
+      "name": "2.1v07",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
